@@ -126,7 +126,7 @@ button.primary {
   transform: translateY(-50%); /* Center vertically */
   z-index: 2; /* Make sure it's above the blue box */
   /* Make the button and its text smaller */
-  padding: 7px 14px; /* smaller padding */
+  padding: 7px 13px; /* smaller padding */
   font-size: 0.92rem; /* smaller text */
 }
 
