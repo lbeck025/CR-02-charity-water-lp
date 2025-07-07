@@ -26,8 +26,9 @@ Fonts:
 /* Set up the main font and background color for the whole page */
 body {
   margin: 0;
-  /* Use Proxima Nova first, then Avenir, then Arial, then sans-serif */
-  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
+  /* Use Nunito Sans from Google Fonts, then Proxima Nova, Avenir, Arial, sans-serif */
+  font-family: 'Nunito Sans', 'Proxima Nova', 'Avenir', Arial, sans-serif;
+  /* well google fonts has neither Proxima Nova nor Avenir, so I'm using Nunito Sans for now*/
   background: #fafafa;
 }
 
@@ -70,7 +71,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem; /* Increased size for the main heading */
+  font-size: 2.4rem; /* Increased size for the main heading */
   font-weight: 400;
   margin: 24px 0 18px 0; /* Add space above the heading to push it down */
   line-height: 1.22; /* Increased line spacing for better readability */
@@ -79,7 +80,7 @@ h1 {
 p {
   color: #1a1a1a;
   font-size: 1.4rem;
-  margin-bottom: 28px;
+  margin-bottom: 36px;
 }
 
 .button-row {
